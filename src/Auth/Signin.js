@@ -15,9 +15,6 @@ function Signin() {
       email: email,
       password: password,
     });
-    setTimeout(() => {
-      window.location.replace("/");
-    }, 300);
   };
 
   return (
